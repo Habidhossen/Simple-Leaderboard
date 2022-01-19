@@ -323,4 +323,29 @@ footer a {
 }
 /* For Tablet Devices */
 @media screen and (min-width: 689px) and (max-width: 992px) {
+  header {
+    height: 90px;
+    width: 100%;
+    background-color: #562eff;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 90%;
+    margin-top: 12px;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 20px;
+  }
+  .top-players,
+  .top-blogs,
+  .all-course {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  }
 }

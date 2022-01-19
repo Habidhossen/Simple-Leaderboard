@@ -31,7 +31,7 @@ hr {
   width: 870px;
 }
 /* ======================
-navbar styles
+    avbar styles
 ====================== */
 .nav-bar {
   display: flex;
@@ -70,7 +70,7 @@ navbar styles
   margin-left: 36px;
 }
 /* ======================
-Top player
+      Top player
 ====================== */
 section {
   padding: 30px;
@@ -79,7 +79,7 @@ section {
   margin-top: 36px;
 }
 .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
@@ -106,7 +106,7 @@ section {
   color: black;
 }
 /* ======================
-Top Blog
+      Top Blog
 ====================== */
 .top-blogs {
   display: grid;
@@ -116,6 +116,7 @@ Top Blog
 }
 .blog {
   display: flex;
+  cursor: pointer;
 }
 .blog-thumbnail img {
   width: 224px;
@@ -141,7 +142,7 @@ Top Blog
   color: #562eff;
 }
 /* ======================
-Latest Course
+    Latest Course
 ====================== */
 .all-course {
   display: grid;
@@ -149,6 +150,7 @@ Latest Course
   /* grid-column-gap: 23px; */
 }
 .course {
+  cursor: pointer;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 16px 12px;
   border-radius: 5px;
@@ -200,4 +202,30 @@ Latest Course
   color: #ff4a60;
   font-size: 14px;
   font-weight: 500;
+}
+/* ======================
+    Footer Styles
+====================== */
+footer {
+  margin-top: 36px;
+  height: 80px;
+  background-color: #562eff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
 }
